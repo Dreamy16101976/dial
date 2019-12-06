@@ -75,7 +75,8 @@ def main(argv):
     try:
         sys.getwindowsversion()
     except AttributeError:
-        type('This program is intended for Microsoft Windows\n')        
+        type('This program is intended for Microsoft Windows\n')  
+        sys.exit(2)
     # default settings
     conn = CONN
     timeout = TIMEOUT
