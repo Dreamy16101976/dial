@@ -5,6 +5,9 @@
 ```
 python dial.py [-t timeout] [-h host] [-c connection]
 ```
+* timeout - pause between ping in seconds
+* host - host IP for ping
+* connection - name of Internet connection
 
 *Example:*
 ```
