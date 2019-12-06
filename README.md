@@ -1,6 +1,7 @@
 # 3G modem watchdog
 
 This program is designed to reconnect the modem to the Internet through a dial-up connection if it is violated.
+I have observed cases where a long-existing connection (for example, a modem in a smart home system) is formally supported, but data is not transmitted. This little program will help correct the situation.
 
 ## Usage
 ```
