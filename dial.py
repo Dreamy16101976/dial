@@ -85,7 +85,7 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,'hc:t:i:')
     except getopt.GetoptError:
-          print('python dial.py -c <connection> -t <timeout in secs> -h <host IP>')
+          print('python dial.py -c <connection> -t <timeout in secs> -i <host IP>')
           sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
